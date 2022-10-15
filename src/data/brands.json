@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/Brands/Aisin.jpg",
+        "caption": "Aisin"
+    },
+    {
+        "id": 2,
+        "image": "/assets/Brands/Ate.jpg",
+        "caption": "Ate"
+    },
+    {
+        "id": 3,
+        "image": "/assets/Brands/Bosch.svg",
+        "caption": "Bosch"
+    },
+    {
+        "id": 4,
+        "image": "/assets/Brands/Brembo.svg",
+        "caption": "Brembo"
+    },
+    {
+        "id": 5,
+        "image": "/assets/Brands/Ferodo.jpg",
+        "caption": "Ferodo"
+    },
+    {
+        "id": 6,
+        "image": "/assets/Brands/Lucas.jpg",
+        "caption": "Lucas"
+    },
+    {
+        "id": 7,
+        "image": "/assets/Brands/Luk.svg",
+        "caption": "LuK"
+    },
+    {
+        "id": 8,
+        "image": "/assets/Brands/Mecafilter.jpg",
+        "caption": "Mecafilter"
+    },
+    {
+        "id": 9,
+        "image": "/assets/Brands/Monroe.jpg",
+        "caption": "Monroe"
+    },
+    {
+        "id": 10,
+        "image": "/assets/Brands/Sachs.svg",
+        "caption": "Sachs"
+    },
+    {
+        "id": 11,
+        "image": "/assets/Brands/Skf.svg",
+        "caption": "Skf"
+    },
+    {
+        "id": 12,
+        "image": "/assets/Brands/Trw.svg",
+        "caption": "Trw"
+    },
+    {
+        "id": 13,
+        "image": "/assets/Brands/Valeo.svg",
+        "caption": "Valeo"
+    },
+    {
+        "id": 14,
+        "image": "/assets/Brands/Continental.svg",
+        "caption": "continental"
+    },
+    {
+        "id": 15,
+        "image": "/assets/Brands/Delphi.svg",
+        "caption": "Delphi"
+    }
+]

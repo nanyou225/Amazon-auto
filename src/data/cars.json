@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/images/cars/audi.svg",
+        "caption": "Audi"
+    },
+    {
+        "id": 2,
+        "image": "/assets/images/cars/bmw.svg",
+        "caption": "Bmw"
+    },
+    {
+        "id": 3,
+        "image": "/assets/images/cars/citroen.svg",
+        "caption": "citroën"
+    },
+    {
+        "id": 4,
+        "image": "/assets/images/cars/dacia.svg",
+        "caption": "Dacia"
+    },
+    {
+        "id": 5,
+        "image": "/assets/images/cars/fiat.svg",
+        "caption": "Fiat"
+    },
+    {
+        "id": 6,
+        "image": "/assets/images/cars/ford.svg",
+        "caption": "Ford"
+    },
+    {
+        "id": 7,
+        "image": "/assets/images/cars/mercedes-benz.svg",
+        "caption": "Mercedes"
+    },
+    {
+        "id": 8,
+        "image": "/assets/images/cars/opel.svg",
+        "caption": "Opel"
+    },
+    {
+        "id": 9,
+        "image": "/assets/images/cars/Peugeot.svg",
+        "caption": "Peugeot"
+    },
+    {
+        "id": 10,
+        "image": "/assets/images/cars/renaulta.svg"
+    },
+    {
+        "id": 11,
+        "image": "/assets/images/cars/seat.svg",
+        "caption": "Seat"
+    },
+    {
+        "id": 12,
+        "image": "/assets/images/cars/Volkswagen.svg",
+        "caption": "Volkswagen"
+    },
+    {
+        "id": 13,
+        "image": "/assets/images/cars/alfaRomeo.svg",
+        "caption": "alfaRomeo"
+    },
+    {
+        "id": 14,
+        "image": "/assets/images/cars/mitsubishi.svg",
+        "caption": "mitsubishi"
+    }
+]
