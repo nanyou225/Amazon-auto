@@ -9,9 +9,9 @@ module.exports = {
     extend: {
       colors: {
         queen_blue: {
-          light: "#29323c",
+          blue: "#2980b9",
           orange: "#fb3d28",
-          DEFAULT: "#023772",
+          DEFAULT: "#29323c",
         },
       },
     },
