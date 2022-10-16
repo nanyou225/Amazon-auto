@@ -5,28 +5,28 @@ import SelectCar from "./SelectCar";
 
 function ImmatCarousel() {
   return (
-    <div className="container px-24 mx-auto flex gap-4 my-1">
+    <div className="container px-24 mx-auto flex my-1">
       <SelectCar />
-      <div className="relative">
+      <div className="relative mr-6">
         <Carousel
           autoPlay
-          infinteLoop
+          infiniteLoop
           showStatus={false}
           showIndicators={true}
           showThumbs={false}
-          interval={4000}
-          width={800}
+          interval={5000}
+          width={940}
         >
-          <div className="">
+          <div>
             <img loading="lazy" src="https://links.papareact.com/gi1" alt="" />
           </div>
-          <div className="">
+          <div>
             <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
           </div>
-          <div className="">
+          <div>
             <img loading="lazy" src="https://links.papareact.com/7ma" alt="" />
           </div>
-          <div className="">
+          <div>
             <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
           </div>
         </Carousel>
