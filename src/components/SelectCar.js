@@ -1,39 +1,64 @@
 import React from "react";
-import Option from "@material-tailwind/react";
+import { Button, Option } from "@material-tailwind/react";
 import Select from "react-select";
 
 function SelectCar() {
+  const options = [
+    { value: "p1", label: "Top level - P1" },
+    { value: "p2", label: "Mid level - P2" },
+    { value: "p3", label: "Low level - P3" },
+  ];
   return (
-    <div className="flex w-72 flex-col gap-4 mr-auto ml-6 bg-gray-300 p-6">
+    <div className="flex w-96 px-8 flex-col gap-4 bg-gray-300 rounded">
       <span className="text-center">Selectionner votre véhicule</span>
       <label>Par plaque d'immatriculation</label>
-      <input
-        className="rounded border h-10 text-center focus:outline-none text-xl"
-        type="text"
-        placeholder="AB-325-CF"
-      />
+      <div className="flex">
+        <input
+          className="rounded border h-10 text-center focus:outline-none text-xl"
+          type="text"
+          placeholder="AB-325-CF"
+        />
+        <Button className="border bg-red-500 p-2 rounded">OK</Button>
+      </div>
       <label>Par selection de véhicule</label>
-      <Select color="blue" label="Select Version">
+      <Select
+        car="peugeot"
+        label="Selectionner la marque"
+        id="selectbox"
+        instanceId="selectbox"
+        options={options}
+      >
         <Option>Material Tailwind HTML</Option>
         <Option>Material Tailwind React</Option>
         <Option>Material Tailwind Vue</Option>
         <Option>Material Tailwind Angular</Option>
         <Option>Material Tailwind Svelte</Option>
       </Select>
-      <Select color="purple" label="Select Version">
+      <Select
+        car="renault"
+        label="Selectionner le modèl"
+        id="selectbox"
+        instanceId="selectbox"
+      >
         <Option>Material Tailwind HTML</Option>
         <Option>Material Tailwind React</Option>
         <Option>Material Tailwind Vue</Option>
         <Option>Material Tailwind Angular</Option>
         <Option>Material Tailwind Svelte</Option>
       </Select>
-      <Select color="teal" label="Select Version">
+      <Select
+        car="seat"
+        label="Selectionner la motorisation"
+        id="selectbox"
+        instanceId="selectbox"
+      >
         <Option>Material Tailwind HTML</Option>
         <Option>Material Tailwind React</Option>
         <Option>Material Tailwind Vue</Option>
         <Option>Material Tailwind Angular</Option>
         <Option>Material Tailwind Svelte</Option>
       </Select>
+      <Button className="border bg-red-500 p-2 rounded">Rechercher</Button>
     </div>
   );
 }

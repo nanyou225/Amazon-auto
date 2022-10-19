@@ -4,9 +4,9 @@ import {
   SearchIcon,
   LoginIcon,
   PhoneIcon,
-  MenuIcon,
   ShoppingCartIcon,
 } from "@heroicons/react/outline";
+import HeaderBottom from "./HeaderBottom";
 
 function Header() {
   return (
@@ -51,19 +51,18 @@ function Header() {
         </div>
       </div>
       {/*hearder bottom*/}
-      <div className=" container mx-auto px-24 space-x-16 p-1 flex items-center bg-queen_blue-blue text-white text-sm">
-        <p className="link flex items-center lg:inline-flex">
-          <MenuIcon className="h-8 mr-1" />
-          Catalogue
-        </p>
+
+      <HeaderBottom />
+
+      {/*
+        <p className="link flex items-center lg:inline-flex"></p>
         <p className="link lg:inline-flex">Balai d'essui glace</p>
         <p className="link lg:inline-flex">Batterie</p>
         <p className="link lg:inline-flex">Huile Moteur</p>
         <p className="link hidden lg:inline-flex">Pneus</p>
         <p className="link hidden lg:inline-flex">Accessoires & Entretien</p>
         <p className="link hidden lg:inline-flex">Outillage</p>
-        <p className="link hidden lg:inline-flex">Garage Partenaire</p>
-      </div>
+        <p className="link hidden lg:inline-flex">Garage Partenaire</p>*/}
     </header>
   );
 }

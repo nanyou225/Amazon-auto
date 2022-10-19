@@ -5,17 +5,17 @@ import SelectCar from "./SelectCar";
 
 function ImmatCarousel() {
   return (
-    <div className="container px-24 mx-auto flex my-1">
+    <div className="container px-24 mx-auto flex my-0.5 gap-3">
       <SelectCar />
-      <div className="relative mr-6">
+      <div className="relative w-full h-full">
         <Carousel
           autoPlay
           infiniteLoop
           showStatus={false}
-          showIndicators={true}
+          showIndicators={false}
           showThumbs={false}
           interval={5000}
-          width={940}
+          transitionTime={1000}
         >
           <div>
             <img loading="lazy" src="https://links.papareact.com/gi1" alt="" />
