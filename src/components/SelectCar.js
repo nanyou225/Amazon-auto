@@ -9,9 +9,11 @@ function SelectCar() {
     { value: "p3", label: "Low level - P3" },
   ];
   return (
-    <div className="flex w-96 px-8 flex-col gap-4 bg-gray-300 rounded">
-      <span className="text-center">Selectionner votre véhicule</span>
-      <label>Par plaque d'immatriculation</label>
+    <div className="flex w-96 p-6 flex-col gap-2 bg-gray-300 rounded">
+      <span className="text-center font-serif font-bold pb-4">
+        Selectionner votre véhicule
+      </span>
+      <label className="">Par plaque d'immatriculation</label>
       <div className="flex">
         <input
           className="rounded border h-10 text-center focus:outline-none text-xl"

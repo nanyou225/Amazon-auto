@@ -3,7 +3,21 @@ import { MenuIcon } from "@heroicons/react/outline";
 
 function HeaderBottom() {
   const links = [
-    { id: 1, name: "Catalogue" },
+    {
+      id: 1,
+      name: "Catalogue",
+      submenu: true,
+      sublinks: [
+        {
+          title: "Freinage",
+          sublink: [
+            { name: "Freinage" },
+            { name: "Suspension" },
+            { name: "Kit d'embrayage" },
+          ],
+        },
+      ],
+    },
     { id: 2, name: "Balai d'essui glace" },
     { id: 3, name: "Batterie" },
     { id: 4, name: "Huile Moteur" },

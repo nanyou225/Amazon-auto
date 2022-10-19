@@ -5,9 +5,9 @@ import SelectCar from "./SelectCar";
 
 function ImmatCarousel() {
   return (
-    <div className="container px-24 mx-auto flex my-0.5 gap-3">
+    <div className="container px-24 mx-auto my-0.5 flex gap-4">
       <SelectCar />
-      <div className="relative w-full h-full">
+      <div className="relative">
         <Carousel
           autoPlay
           infiniteLoop
