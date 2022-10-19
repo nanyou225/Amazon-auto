@@ -6,4 +6,5 @@
     .link {
         @apply cursor-pointer hover:underline;
     }
+
 }

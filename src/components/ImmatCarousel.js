@@ -5,7 +5,7 @@ import SelectCar from "./SelectCar";
 
 function ImmatCarousel() {
   return (
-    <div className="container px-24 mx-auto my-0.5 flex gap-4">
+    <div className="container px-24 mx-auto my-0.5 flex gap-8">
       <SelectCar />
       <div className="relative">
         <Carousel
@@ -18,16 +18,16 @@ function ImmatCarousel() {
           transitionTime={1000}
         >
           <div>
-            <img loading="lazy" src="https://links.papareact.com/gi1" alt="" />
+            <img src="https://links.papareact.com/gi1" alt="" loading="lazy" />
           </div>
           <div>
-            <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
+            <img src="https://links.papareact.com/6ff" alt="" loading="lazy" />
           </div>
           <div>
-            <img loading="lazy" src="https://links.papareact.com/7ma" alt="" />
+            <img src="https://links.papareact.com/7ma" alt="" loading="lazy" />
           </div>
           <div>
-            <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
+            <img src="https://links.papareact.com/6ff" alt="" loading="lazy" />
           </div>
         </Carousel>
       </div>
