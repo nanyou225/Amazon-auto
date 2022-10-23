@@ -1,21 +1,21 @@
 import React from "react";
 import { MenuIcon } from "@heroicons/react/outline";
-import links from "../data/dropdownHover.json";
+import DropdHovers from "../data/dropdownHover.json";
 
 function HeaderBottom() {
   return (
     <div className=" container mx-auto px-24 p-1 flex items-center bg-queen_blue-blue text-white text-sm">
       <MenuIcon className="h-8" />
-      {links.map((link) => (
+      {DropdHovers.map((link) => (
         <div className="mr-16 group" key={link.id}>
           <p className="link flex items-center lg:inline-flex">{link.name}</p>
           {link.submenu && (
             <div>
-              <div className="absolute top-24 z-10 hidden group-hover:block hover:bloc shadow-lg shadow-indigo-500/40">
+              <div className="absolute top-24 z-10 visible group-hover:block hover:bloc shadow-lg shadow-indigo-500/40">
                 <div className="py-3">
                   <div class="w-4 h-4 left-3 absolute mt-1 bg-white rotate-45 transform-gpu"></div>
                 </div>
-                <div className="bg-white p-8 grid grid-cols-4 gap-x-32 gap-y-16">
+                <div className="bg-white p-8 grid grid-cols-4 gap-x-36 gap-y-12">
                   {link.sublinks.map((mysublinks) => (
                     <div>
                       <p className="link text-gray-600 font-semibold">

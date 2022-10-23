@@ -73,7 +73,58 @@
                 ]
             },
             {
+                "head": "Direction / Suspension / Train",
+                "sublink": [
+                    {
+                        "name": "Disque de frein",
+                        "link": "/"
+                    },
+                    {
+                        "name": "Plaquettes de frein",
+                        "link": "/"
+                    },
+                    {
+                        "name": "Etrier de frein",
+                        "link": "/"
+                    }
+                ]
+            },
+            {
                 "head": "Démarrage électrique",
+                "sublink": [
+                    {
+                        "name": "Disque de frein",
+                        "link": "/"
+                    },
+                    {
+                        "name": "Plaquettes de frein",
+                        "link": "/"
+                    },
+                    {
+                        "name": "Etrier de frein",
+                        "link": "/"
+                    }
+                ]
+            },
+            {
+                "head": "Démarrage électrique",
+                "sublink": [
+                    {
+                        "name": "Disque de frein",
+                        "link": "/"
+                    },
+                    {
+                        "name": "Plaquettes de frein",
+                        "link": "/"
+                    },
+                    {
+                        "name": "Etrier de frein",
+                        "link": "/"
+                    }
+                ]
+            },
+            {
+                "head": "Embrayage et Boîte de vitesse",
                 "sublink": [
                     {
                         "name": "Disque de frein",
