@@ -23,7 +23,7 @@ function Header() {
           />
         </div>
         {/*search*/}
-        <div className="hidden sm:flex items-center rounded-md h-10 flex-grow cursor-pointer bg-red-600 hover:bg-red-500">
+        <div className="hidden sm:flex items-center rounded-md h-10 flex-grow cursor-pointer bg-red-500 hover:bg-red-400">
           <input
             className="p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4 text-xl"
             type="text"

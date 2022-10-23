@@ -7,13 +7,13 @@ function HeaderBottom() {
     <div className=" container mx-auto px-24 p-1 flex items-center bg-queen_blue-blue text-white text-sm">
       <MenuIcon className="h-8" />
       {DropdHovers.map((link) => (
-        <div className="mr-16 group" key={link.id}>
+        <div key={link.id} className="mr-16 group">
           <p className="link flex items-center lg:inline-flex">{link.name}</p>
           {link.submenu && (
             <div>
-              <div className="absolute top-24 z-10 visible group-hover:block hover:bloc shadow-lg shadow-indigo-500/40">
+              <div className="absolute top-24 z-30 hidden group-hover:block hover:bloc shadow-lg shadow-indigo-500/40">
                 <div className="py-3">
-                  <div class="w-4 h-4 left-3 absolute mt-1 bg-white rotate-45 transform-gpu"></div>
+                  <div className="w-4 h-4 left-3 absolute mt-1 bg-white rotate-45 transform-gpu"></div>
                 </div>
                 <div className="bg-white p-8 grid grid-cols-4 gap-x-36 gap-y-12">
                   {link.sublinks.map((mysublinks) => (
