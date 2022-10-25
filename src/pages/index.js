@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import ImmatCarousel from "../components/ImmatCarousel";
 import ProductFeed from "../components/ProductFeed";
 
-export default function Home({products}) {
+export default function Home({ products }) {
   return (
     <div className="bg-gray-100">
       <Head>

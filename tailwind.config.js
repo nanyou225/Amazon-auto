@@ -10,7 +10,6 @@ module.exports = {
       colors: {
         queen_blue: {
           blue: "#2980b9",
-          orange: "#fb3d28",
           DEFAULT: "#29323c",
         },
       },

@@ -2,10 +2,11 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import SelectCar from "./SelectCar";
+import image from "next/image";
 
 function ImmatCarousel() {
   return (
-    <div className="container px-24 mx-auto my-0.5 flex gap-8">
+    <div className="container px-24 mx-auto my-0.5 md:flex gap-8">
       <SelectCar />
       <div className="relative">
         <Carousel
@@ -18,16 +19,46 @@ function ImmatCarousel() {
           transitionTime={1000}
         >
           <div>
-            <img src="https://links.papareact.com/gi1" alt="" loading="lazy" />
+            <img
+              src="../../assets/images/carousel/bestjump.jpg"
+              alt=""
+              loading="lazy"
+            />
           </div>
           <div>
-            <img src="https://links.papareact.com/6ff" alt="" loading="lazy" />
+            <img
+              src="../../assets/images/carousel/cylinders.jpg"
+              alt=""
+              loading="lazy"
+            />
           </div>
           <div>
-            <img src="https://links.papareact.com/7ma" alt="" loading="lazy" />
+            <img
+              src="../../assets/images/carousel/eliason.jpg"
+              alt=""
+              loading="lazy"
+            />
           </div>
           <div>
-            <img src="https://links.papareact.com/6ff" alt="" loading="lazy" />
+            <img
+              src="../../assets/images/carousel/hochgesang.jpg"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+          <div>
+            <img
+              src="../../assets/images/carousel/kirchoff.jpg"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+          <div>
+            <img
+              src="../../assets/images/carousel/mossholder.jpg"
+              alt=""
+              loading="lazy"
+            />
           </div>
         </Carousel>
       </div>

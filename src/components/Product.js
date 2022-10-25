@@ -13,7 +13,7 @@ function Product({ id, title, price, description, category, image }) {
 
   const [hasPrime] = useState(Math.random() < 0.5);
   return (
-    <div className="relative flex flex-col m-5 bg-white z-10 p-10">
+    <div className="relative flex flex-col m-4 bg-white z-10 p-10">
       <p className="absolute top-2 right-2 text-xs italic text-gray-400">
         {category}
       </p>
@@ -28,7 +28,7 @@ function Product({ id, title, price, description, category, image }) {
       </di>
 
       <p className="text-xs my-2 line-clamp-2">{description}</p>
-      <div className="mb-5">
+      <div className="mb-5 text-right text-lg font-semibold">
         <Currency
           quantity={price}
           currency="GBP"
@@ -42,11 +42,11 @@ function Product({ id, title, price, description, category, image }) {
         <div className="flex items-center space-x-2 -mt-5">
           <img className="w-12" src="https://links.papareact.com/fdw" alt="" />
           <p className="text-xs text-gray-500">
-            Livraison GRATUITE le lendemain
+            Livraison GRATUITE
           </p>
         </div>
       )}
-      <button className="mt-auto button">Ajouter au panier</button>
+      <button className="mt-auto button text-white font-semibold">Ajouter au panier</button>
     </div>
   );
 }
