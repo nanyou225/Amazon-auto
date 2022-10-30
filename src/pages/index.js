@@ -3,11 +3,14 @@ import Header from "../components/Header";
 import ImmatCarousel from "../components/ImmatCarousel";
 import ProductFeed from "../components/ProductFeed";
 
+
 export default function Home({ products }) {
   return (
     <div className="bg-gray-100">
       <Head>
-        <title>Queen-Auto 1.0</title>
+        <title>
+          Les professionnels de l'automobile à votre service | Best-Auto
+        </title>
       </Head>
       <Header />
       <main className="max-w-screen-2xl mx-auto">
