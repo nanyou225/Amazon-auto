@@ -22,7 +22,7 @@ export const basketSlice = createSlice({
         newBasket.splice(index, 1);
       } else {
         console.warn(
-          `Cant remove product (id: ${action.payload}) as its not in`
+          `Impossible de supprimer un produit (id: ${action.payload}) car il nexiste pas dans le panier`
         );
       }
       state.items = newBasket;
@@ -34,5 +34,7 @@ export const { addToBasket, removeFromBasket } = basketSlice.actions;
 
 // Selectors - This is how we pull information from the Global store slice
 export const selectItems = (state) => state.basket.items;
+export const selectTotal = (state) =>
+  state.basket.items.reduce((total, item) => total + item.price, 0);
 
 export default basketSlice.reducer;
