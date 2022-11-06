@@ -5,29 +5,59 @@ import SelectCar from "./SelectCar";
 
 function ImmatCarousel() {
   return (
-    <div className="container px-24 mx-auto flex gap-4 my-1">
+    <div className="container px-24 mx-auto my-0.5 md:flex gap-8">
       <SelectCar />
       <div className="relative">
         <Carousel
           autoPlay
-          infinteLoop
+          infiniteLoop
           showStatus={false}
-          showIndicators={true}
+          showIndicators={false}
           showThumbs={false}
-          interval={4000}
-          width={800}
+          interval={5000}
+          transitionTime={1000}
         >
-          <div className="">
-            <img loading="lazy" src="https://links.papareact.com/gi1" alt="" />
+          <div>
+            <img
+              src="../../assets/images/carousel/bestjump.jpg"
+              alt=""
+              loading="lazy"
+            />
           </div>
-          <div className="">
-            <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
+          <div>
+            <img
+              src="../../assets/images/carousel/cylinders.jpg"
+              alt=""
+              loading="lazy"
+            />
           </div>
-          <div className="">
-            <img loading="lazy" src="https://links.papareact.com/7ma" alt="" />
+          <div>
+            <img
+              src="../../assets/images/carousel/eliason.jpg"
+              alt=""
+              loading="lazy"
+            />
           </div>
-          <div className="">
-            <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
+          <div>
+            <img
+              src="../../assets/images/carousel/hochgesang.jpg"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+          <div>
+            <img
+              src="../../assets/images/carousel/kirchoff.jpg"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+          <div>
+            <img
+              src="../../assets/images/carousel/mossholder.jpg"
+              alt=""
+              loading="lazy"
+            />
           </div>
         </Carousel>
       </div>
